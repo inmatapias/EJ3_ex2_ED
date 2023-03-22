@@ -22,38 +22,38 @@ Lo haremos empleando el siguiente comando: git commit -m "Añadido de refactoriz
 
 - Mostrar la historia del repositorio incluyendo todas las ramas.
 
-Usaremos el siguiente comando: git log -b
+Usaremos el siguiente comando: git log -b.
 
 - Crear la rama “patrones”.
 
-git branch patrones
+git branch patrones.
 
-- Crear el fichero patrones.txt y añadir la siguiente referencia
+- Crear el fichero patrones.txt y añadir la siguiente referencia.
 
-echo "Los patrones de diseño (design patterns) son soluciones habituales a problemas comunes en el diseño de software." >  patrones.txt
+echo "Los patrones de diseño (design patterns) son soluciones habituales a problemas comunes en el diseño de software." >  patrones.txt.
 
 - Añadir los cambios a la zona de intercambio temporal.
 
-git add
+git add.
 
 - Hacer un commit con el mensaje “Añadida primera definición de patrones de diseño”
 
-git commit -m "Añadida primera definición de patrones de diseño”
+git commit -m "Añadida primera definición de patrones de diseño”.
 
 - Mostrar la historia del repositorio incluyendo todas las ramas.
 
-git log -b
+git log -b.
 
 - Fusionar la rama patrones con la rama master.
 
-git merge patrones
+git merge patrones.
 
 - Mostrar la historia del repositorio incluyendo todas las ramas.
 
-git log -b
+git log -b.
 
 - Eliminar la rama patrones.
 
-
+git branch -D patrones.
 
 
